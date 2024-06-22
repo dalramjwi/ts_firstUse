@@ -1,0 +1,359 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.title > img {
+  margin-left: 30%;
+  margin-top: 3%;
+  width: 40%;
+  height: 10%;
+}
+
+.sun {
+  position: fixed;
+  top: 60px;
+  right: -18%;
+}
+
+.sun > img {
+  width: 20%;
+  height: 10%;
+}
+
+.vending-machine > img {
+  position: fixed;
+  margin-top: 13%;
+  margin-left: 38%;
+  width: 23%;
+  height: 58%;
+}
+.can {
+  width: 80px;
+  height: 40px;
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.box1 {
+  position: absolute;
+  top: 245px;
+  left: 43.5%;
+  width: 201px;
+  height: 50px;
+}
+.animalnoncan {
+  margin-top: 6px;
+  margin-right: 6px;
+  display: flex;
+}
+.animalnoncan1:hover {
+background-color: #F2A0AF;
+}
+.animalnoncan2:hover {
+  background-color: #F2A0AF;
+  }
+  .animalnoncan3hover {
+    background-color: #F2A0AF;
+    }
+    .animalnoncan4:hover {
+      background-color: #F2A0AF;
+      }
+      .animalnoncan5:hover {
+        background-color: #F2A0AF;
+        }
+.box2 {
+  position: absolute;
+  top: 315px;
+  left: 43.5%;
+  width: 201px;
+  height: 50px;
+}
+.timenoncan {
+  margin-top: 6px;
+  margin-right: 6px;
+  display: flex;
+}
+.timenoncan1:hover {
+  background-color: #733A26;
+  }
+  .timenoncan2:hover {
+    background-color: #733A26;
+    }
+    .timenoncan3:hover {
+      background-color: #733A26;
+      }
+      .timenoncan4:hover {
+        background-color: #733A26;
+        }
+        .timenoncan5:hover {
+          background-color: #733A26;
+          }
+
+.box3 {
+  position: absolute;
+  top: 385px;
+  left: 43.5%;
+  width: 201px;
+  height: 50px;
+}
+.crimenoncan {
+  margin-top: 6px;
+  margin-right: 6px;
+  display: flex;
+}
+.crimenoncan1:hover {
+  background-color: #E01212;
+}
+.crimenoncan2:hover {
+  background-color: #E01212;
+}
+.crimenoncan3:hover {
+  background-color: #E01212;
+}
+.crimenoncan4:hover {
+  background-color: #E01212;
+}
+.crimenoncan5:hover {
+  background-color: #E01212;
+}
+
+.box4 {
+  position: absolute;
+  top: 453px;
+  left: 43.5%;
+  width: 201px;
+  height: 50px;
+}
+.spacenoncan {
+  margin-top: 6px;
+  margin-right: 6px;
+  display: flex;
+}
+.spacenoncan1:hover {
+  background-color: #4333A6;
+}
+.spacenoncan2:hover {
+  background-color: #4333A6;
+}
+.spcaenoncan3:hover {
+  background-color: #4333A6;
+}
+.spacenoncan4:hover {
+  background-color: #4333A6;
+}
+.spacenoncan5:hover {
+  background-color: #4333A6;
+}
+.box5 {
+  position: absolute;
+  top: 523px;
+  left: 43.5%;
+  width: 201px;
+  height: 50px;
+}
+.radiationnoncan {
+  margin-top: 6px;
+  margin-right: 6px;
+  display: flex;
+}
+
+.line1{
+  position: absolute;
+  top: 298px;
+  left: 43.5%;
+  width: 201px;
+  height: 16px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.animal_price {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pricetag {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.animal_price div:hover {
+background-color: #F2A0AF;
+}
+.line2{
+  position: absolute;
+  top: 367px;
+  left: 43.5%;
+  width: 201px;
+  height: 16px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.time_price {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pricetag {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.time_price div:hover {
+background-color: #733A26;
+}
+.line3{
+  position: absolute;
+  top: 435px;
+  left: 43.5%;
+  width: 201px;
+  height: 16px;
+
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.crime_price {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pricetag {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.crime_price div:hover {
+background-color: #E01212;
+color: #fff;
+}
+.line4{
+  position: absolute;
+  top: 504px;
+  left: 43.5%;
+  width: 201px;
+  height: 16px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.space_price {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pricetag {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.space_price div:hover {
+background-color: #4333A6;
+color: #fff;
+}
+.line5{
+  position: absolute;
+  top: 570px;
+  left: 43.5%;
+  width: 201px;
+  height: 16px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.radiation_price {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pricetag {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.streetlamp img {
+  width: 25%;
+}
+
+.animal_lamp,
+.crime_lamp,
+.radiation_lamp,
+.space_lamp,
+.time_lamp {
+  position: fixed;
+}
+
+.animal_lamp {
+  top: 60%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+}
+
+.crime_lamp {
+  top: 58.3%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.radiation_lamp {
+  top: 59%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.space_lamp {
+  top: 57%;
+  right: 2%;
+  transform: translate(50%, -50%);
+}
+
+.time_lamp {
+  top: 57.5%;
+  right: 20%;
+  transform: translate(50%, -50%);
+}
+
+
